@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+}
+
+.container-1{
+   display: flex;
+   max-width: 70vw;
+   height: 70vh;
+   margin: auto;
+   position: relative;
+   top: 6rem;
+   background: linear-gradient(to right,#52258d, #1CB5E0);
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.container-3{
+    width: 78%;
+    height: 88%;
+    color: rgb(160, 154, 154);
+    display: flex;
+    flex-direction: column;
+    border-radius:100px 10px 10px 100px ;
+    background: rgb(255, 255, 255);
+    position: relative;
+    top: 2rem;
+}
+
+.navbar{
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+nav{
+   float: right;
+   border-radius: 40px;
+   background: #52258d;
+}
+
+ul{
+   list-style-type: none;
+   display: flex;
+   padding: 10px 25px;
+   margin: 4px;
+}
+
+.B{
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+.B:hover{
+   width:50%;
+   height: 90%;
+   border-radius: 30px;
+   color: #22024d;
+   background: white;
+}
+
+.forms{
+   width: 65%;
+   height: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+input{
+   margin: 10px;
+   width: 15rem;
+   line-height: 2rem;
+   color: rgb(247, 247, 247);
+   outline: none;
+   border-radius: 10px;
+   font-size: 1rem;
+   font-weight: bold;
+   background-color: rgb(53, 53, 53);
+   text-align: center;
+}
+
+label{
+   font-size: 1.5rem;
+   font-weight: bold;
+   position: relative;
+   left: 3%;
+   color: black;
+}
+
+select{
+   font-size: 1.2rem;
+   color: white;
+   background-color:rgb(53, 53, 53) ;
+   position: relative;
+   left: 5%;
+   width: 8rem;
+   height: 2rem;
+   cursor: pointer;
+   border-radius: 10px;
+   outline: none;
+   text-align: center;
+}
+
+.main{
+   position: relative;
+   left: 10rem;
+   font-size: 2rem;
+   font-weight: bolder;
+}
+
+.welcome{
+   font-size: 2rem;
+}
+
+.fa-space-shuttle{
+   font-size: 3rem;
+   transform: rotate(-89deg);
+   margin: 12px;
+   animation: example 3s linear 1s infinite normal;
+   position: relative;
+}
+
+@keyframes example {
+    from{
+      color: white;
+      font-size: 3rem;
+      left: -5px;
+      top: -45px;
+    }
+    to{
+      color: #1CB5E0;
+      font-size: 3rem;
+      left: -5px;
+      top: 0px;
+    }
+}
+
+.para{
+   font-size: 1.2rem;
+   letter-spacing: 3px;
+}
+
+.mokrus{
+   font-size: bolder;
+}
+
+.A{
+   text-decoration: none;
+   padding: 8px;
+   color: white;
+   font-size: 1.3rem;
+   border: 1px solid white;
+   margin: 20px;
+   width: 6rem;
+   border-radius: 20px;
+}
+
+.A:hover{
+   background: white;
+   color: #52258d;
+   transform: scale(1.1);
+}
+
+.C{
+   float: right;
+   position: relative;
+   width: 8rem;
+   top: 3.5rem;
+   right: 14.5rem;
+   bottom: 1rem;
+   text-decoration: none;
+   color: white;
+   font-size: 1.3rem;
+   background: #52258d;
+   border-radius: 20px;
+   outline: none;
+   padding: 10px;
+   text-align: center;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+}
+
+.C:hover{
+   transform: scale(1.1);
+}

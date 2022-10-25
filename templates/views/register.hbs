@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>header}}
+   <title>Registration-form</title>
+</head>
+<body>
+   <div class="dad-container"></div>
+   <div class="container-1">
+      <div class="container-2">
+          <i class="fas fa-space-shuttle"></i>
+          <h2 class="welcome">Welcome</h2>
+          <p class="para">to the <span class="mokrus">MOKRUS</span> Area 🙏 </p>
+          <a href="#" class="A">Login</a>
+      </div>
+      <div class="container-3">
+         <div class="navbar">
+         <nav>
+            <ul>
+               <li><a href="/" class="B">Registration</a></li>
+               <li><a href="/login" class="B">Login</a></li>
+            </ul>
+         </nav>
+         </div>
+         <h2 class="main">User Registration Form</h2>
+         <div class="forms">
+         <form action="/" method="POST">
+              <input class="inputs" type="text" placeholder="First Name*" name="firstname">
+              <input class="inputs" type="text" placeholder="Last Name*" name="lastname">
+              <input class="inputs" type="text" placeholder="Your Email*" name="email">
+             <label for="gender">Gender:</label>
+              <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">female</option>
+              </select>
+
+              <input class="inputs" type="text" placeholder="Your Phone*" name="phone">
+              <input class="inputs" type="text" placeholder="Enter Your Age*" name="age">
+              <input class="inputs" type="password" placeholder="Password*" name="password">
+                <input class="inputs" type="password" placeholder="Confirm Password*" name="confirmpassword">
+            <input type="submit" value="Register" class="C">
+         </form>
+        </div>
+
+      </div>
+   </div>
+</body>
+</html>
